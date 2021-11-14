@@ -1,0 +1,28 @@
+body {
+  background-color: #e0e0e0;
+}
+
+.navbar {
+  background-color: #e1bee7;
+  color: black;
+  font-size: 20px;
+}
+
+img {
+  border-radius: 10px;
+}
+
+.btn-add-favorite {
+  margin:1vh 1vh;
+}
+
+.pagination a{
+  color:#424242;
+  background-color:#eeeeee;
+  border:1px solid;
+}
+
+.page-item.active .page-link {
+  background-color:white;
+  color:#0d6efd;
+}
