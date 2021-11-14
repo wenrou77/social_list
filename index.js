@@ -15,7 +15,7 @@ function renderUserList(data) {
   let rawHTML = "";
   data.forEach((item) => {
     rawHTML += `
-    <div id="user-panel" class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-1 my-2 d-flex flex-column align-items-center">
+    <div id="user-panel" class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 my-2 d-flex flex-column align-items-center">
       <a href="#user-modal" data-toggle="modal" ><img data-id="${item.id}" src="${item.avatar}" alt="User Pic" class="btn-show-user"></a>
       <div class="d-flex align-items-center card-footer">
         <a href="#user-modal" data-toggle="modal" class="link-secondary"><h6 data-id="${item.id}" class="btn-show-user">${item.name} ${item.surname}</h6></a>
